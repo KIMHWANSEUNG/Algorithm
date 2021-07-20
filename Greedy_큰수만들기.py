@@ -37,6 +37,7 @@ print(solution("1924",2))
 
 
 
+
 def solution2(number, k):
     stack = [number[0]]
     for num in number[1:]:
