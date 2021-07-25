@@ -1,0 +1,1 @@
+console dog = {type : 'dog', n}
