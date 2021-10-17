@@ -12,14 +12,14 @@ public class DFS_EX1 {
             return 0;
         }
 
-        resultCnt += dfs(numbers, target, depth+1, sum+numbers[depth]);
-        resultCnt += dfs(numbers, target, depth+1, sum-numbers[depth]);
+        resultCnt += dfs(numbers, target, depth+1, sum+numbers[depth]) + dfs(numbers, target, depth+1, sum-numbers[depth]);
+    
 
         return resultCnt;
     }
     public static void main(String[] args) {
         int[] arr = {1,1,1,1,1};
 
-        System.out.println(solution(arr,5));
+        System.out.println(solution(arr,3));
     }
 }
