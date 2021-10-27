@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "단체사진찍기.Solution",
+            "projectName": "Algorithm_408a61e1"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
