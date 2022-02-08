@@ -23,3 +23,37 @@ num = '12'
 base = 3
 answer = int(num, base)
 print(answer)
+
+print("------------------------------------------------")
+print("문자열 정렬")
+s, n = 'abc',7
+if len(s) < n and (n-len(s))%2==0:
+    print(s.ljust(n))
+    print(s.center(n))
+    print(s.rjust(n))
+
+print("------------------------------------------------")
+print("알파벳출력")
+alpabet='abcdef'
+if num == 0:
+    print(alpabet.lower())
+else:
+    print(alpabet.upper())
+
+print("------------------------------------------------")
+print("2차원 뒤집기")
+def solution(mylist):
+    answer = []
+    for size in range(0,len(mylist[0])):
+        arr_list=[]
+        for arr in mylist:
+            arr_list.append(arr[size])
+        answer.append(arr_list)
+    return answer
+print(solution([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+
+## map, zip 사용 
+def solution2(mylist):
+ answer = list(map(list,zip(*mylist)))
+ return answer
+print(solution2([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
