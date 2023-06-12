@@ -37,8 +37,6 @@ public class BackgroudClean {
         int yMin = Collections.min(yArr);
         int yMax = Collections.max(yArr)+1;
 
-
-
         int []result = {yMin,xMin,yMax,xMax};
         return result;
     }
