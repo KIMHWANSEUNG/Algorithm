@@ -19,9 +19,9 @@ public class Honorboard {
             Collections.sort(arrayList,Collections.reverseOrder());
 
             if(arrayList.size()<k){
-               scoreArr[index]=(arrayList.get(arrayList.size()-1));
+               scoreArr[index]=arrayList.get(arrayList.size()-1);
             }else {
-                scoreArr[index]=(arrayList.get(k-1));
+                scoreArr[index]=arrayList.get(k-1);
             }
             index++;
         }
