@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KnightWeapon",
+            "request": "launch",
+            "mainClass": "Programmers.Lv0.KnightWeapon",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
+            "name": "AgeExpress",
+            "request": "launch",
+            "mainClass": "Programmers.Lv0.AgeExpress",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
             "name": "MemoryScore",
             "request": "launch",
             "mainClass": "MemoryScore",
