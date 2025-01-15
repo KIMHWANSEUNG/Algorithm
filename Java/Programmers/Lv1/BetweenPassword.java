@@ -1,6 +1,4 @@
-package Programmers.Lv1;
 
-import javafx.scene.chart.Chart;
 
 import java.util.Arrays;
 

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MemoryScore",
+            "request": "launch",
+            "mainClass": "MemoryScore",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
             "name": "MoneyFold",
             "request": "launch",
             "mainClass": "MoneyFold",

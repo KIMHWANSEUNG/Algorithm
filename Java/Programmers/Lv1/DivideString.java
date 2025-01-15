@@ -1,4 +1,4 @@
-package Programmers.Lv1;
+
 
 public class DivideString {
   //  s

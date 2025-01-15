@@ -1,4 +1,4 @@
-package Programmers.Lv1;
+
 //크기가 작은 부분 문자열
 //프로그래머스 lv1
 //t	p	result
