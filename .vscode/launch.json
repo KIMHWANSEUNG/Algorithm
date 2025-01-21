@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Demo1",
+            "request": "launch",
+            "mainClass": "요기요_코테.Demo1",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
+            "name": "Exam1",
+            "request": "launch",
+            "mainClass": "요기요_코테.Exam1",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
             "name": "KnightWeapon",
             "request": "launch",
             "mainClass": "Programmers.Lv0.KnightWeapon",
