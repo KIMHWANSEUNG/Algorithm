@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lesson2ArrayEx1",
+            "request": "launch",
+            "mainClass": "Codility.Lesson2ArrayEx1",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
             "name": "Lesson1",
             "request": "launch",
             "mainClass": "Codility.Lesson1",
