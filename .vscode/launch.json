@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "요기요_코테.Ex1",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
+            "name": "Ex2",
+            "request": "launch",
+            "mainClass": "요기요_코테.Ex2",
+            "projectName": "Algorithm_fd44fd74"
+        },
+        {
+            "type": "java",
             "name": "Lesson2ArrayEx2",
             "request": "launch",
             "mainClass": "Codility.Lesson2ArrayEx2",

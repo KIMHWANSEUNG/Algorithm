@@ -1,4 +1,4 @@
-package 요기요_코테;
+package Yogiyo_coding_test;
 
 import java.util.Arrays;
 
